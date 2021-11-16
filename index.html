@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scripte.js"></script>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+</head>
+<body>
+    <Table class="calculator">
+    <tr>
+        <td colspan="4"><input type="text" id="result"></td>
+    </tr>
+    <tr>
+        <td><input type="button" value="%"onclick="Num('%')"></td>
+        <td><input type="button" value="CE"onclick="clr()"></td>
+        <td><input type="button" value="C" onclick="clr()"></td>
+        <td><input type="button" onclick="del()"><i class="fas fa-backspace"></i></td>
+    </tr>
+    <tr>
+        <td><input type="button" value="1/x"onclick="()"></td>
+        <td><input type="button" value="x²"onclick="p()"></td>
+        <td><input type="button" value=""onclick="s()"></td>
+        <td><input type="button" value="/"onclick="Num('/')"></td>
+    </tr>
+    <tr>
+        <td><input type="button" value="7"onclick="Num('7')"></td>
+        <td><input type="button" value="8"onclick="Num('8')"></td>
+        <td><input type="button" value="9"onclick="Num('9')"></td>
+        <td><input type="button" value="x"onclick="Num('*')"></td>
+    </tr>
+    <tr>
+        <td><input type="button" value="6"onclick="Num('6')"></td>
+        <td><input type="button" value="5"onclick="Num('5')"></td>
+        <td><input type="button" value="4"onclick="Num('4')"></td>
+        <td><input type="button" value="-"onclick="Num('-')"></td>
+    </tr>
+    <tr>
+        <td><input type="button" value="3"onclick="Num('3')"></td>
+        <td><input type="button" value="2"onclick="Num('2')"></td>
+        <td><input type="button" value="1"onclick="Num('1')"></td>
+        <td><input type="button" value="+"onclick="Num('+')"></td>
+    </tr>
+    <tr>
+        <td><input type="button" value="+/-"onclick="Num('*(-1)') , equal()"></td>
+        <td><input type="button" value="0"onclick="Num('0')"></td>
+        <td><input type="button" value="."onclick="Num('.')"></td>
+        <td><input type="button" value="="onclick="equal()"></td>
+    </tr>
+    </Table>
+</body>
+</html>
